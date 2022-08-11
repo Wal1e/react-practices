@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate, Link } from 'react-ro
 import logo from './logo.svg';
 import './App.css';
 import Home from './page/home'
+import List from './page/list'
 
 function App() {
   const curTimeStamp = new Date().getTime();
@@ -16,7 +17,8 @@ function App() {
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
       </header>
-      <Home curTimeStamp={curTimeStamp} startTime={startTime} endTime={endTime}></Home>
+      {/* <Home curTimeStamp={curTimeStamp} startTime={startTime} endTime={endTime}></Home> */}
+      <List />
     </div>
   );
 }
