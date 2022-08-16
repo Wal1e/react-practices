@@ -1,6 +1,7 @@
 # react-practices
 一些关于react的实践
 [使用router-v6写嵌套路由](https://medium.com/@jnpiyush/how-to-create-nested-dynamic-routes-using-react-router-v6-96edc4daa061)
+[useContext 使用指南](https://zhuanlan.zhihu.com/p/408789699)
 ### `npm start`
 
 Runs the app in the development mode.\
